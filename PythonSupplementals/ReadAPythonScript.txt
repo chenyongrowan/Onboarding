@@ -1,0 +1,22 @@
+Please read through the code below and write the purpose of each step/what the step is doing. 
+
+
+
+
+import pandas as pd
+
+data = {'Gene': ['BRCA1', 'TP53', 'EGFR', 'MYC'],
+        'Expression': [12.3, 7.4, 15.2, 8.7],
+        'Condition': ['Healthy', 'Cancer', 'Healthy', 'Cancer']}
+
+df = pd.DataFrame(data)
+
+df['High Expression'] = df['Expression'] > 10
+
+high_exp_genes = df[df['High Expression']]
+
+mean_expression = df.groupby('Condition')['Expression'].mean()
+
+sorted_df = df.sort_values(by='Expression', ascending=False)
+
+filtered_genes = df[(df['Expression'] > 10) & (df['Condition'] == 'Healthy')]
