@@ -37,8 +37,13 @@ This repository is designed to help onboard new students in the lab or to provid
 5. Practice reading scripts. We work collaboratively in the lab, so you will need to be able to read code written by others in addition to writing your own. Please see [ReadARScript.txt](./RSupplementals/ReadARScript.txt)
 
 ### Psuedocode 
-Pseudocode is VERY useful for laying out the logic of a large project. 
+Pseudocode is VERY useful for laying out the logic of a large project. Yong's first PhD student developed a pseudocode lesson as part of her PhD training. Under the [Pseudocode](./Pseudocode) folder, there are two documents. 
+- [1S](./Pseudocode/1S.pdf): The Good Pseudocode Checklist - Helpful to learn what the requirements of good pseudocode are
+- [2S](./Pseudocode/2S.pdf): Practice Correcting Pseudocode - Practice correcting pseudocode with the good pseudocode checklist. Also provides biological background information.
+
+
+An answer key is provided in the [AnswerKeys](./Pseudocode/AnswerKey) folder. 
 
 
 ### Write your "first" bioinformatics program
-Okay. Maybe it isn't your first program, but it's the first assignment for the lab. 
+Okay. Maybe it isn't your first bioinformatics program, but it's the first assignment for the lab. 
