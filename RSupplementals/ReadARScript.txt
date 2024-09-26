@@ -1,0 +1,19 @@
+Please read through the below script. Write down the purpose of each line/what task each line is completing. 
+
+
+
+library(tidyverse)
+
+data <- tibble(Gene = c('BRCA1', 'TP53', 'EGFR', 'MYC'),
+               Expression = c(12.3, 7.4, 15.2, 8.7),
+               Condition = c('Healthy', 'Cancer', 'Healthy', 'Cancer'))
+
+data <- data %>% mutate(High_Expression = Expression > 10)
+
+high_exp_genes <- data %>% filter(High_Expression)
+
+mean_expression <- data %>% group_by(Condition) %>% summarise(mean_expression = mean(Expression))
+
+sorted_data <- data %>% arrange(desc(Expression))
+
+filtered_genes <- data %>% filter(Expression > 10, Condition == 'Healthy')
