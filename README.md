@@ -36,5 +36,9 @@ This repository is designed to help onboard new students in the lab or to provid
 4. Seurat is the equivalent of scanpy in Python. It is time to practice your skills with a bioinformatics question. At this point, you can attempt the [Seurat tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) with real biological data! 
 5. Practice reading scripts. We work collaboratively in the lab, so you will need to be able to read code written by others in addition to writing your own. Please see [ReadARScript.txt](./RSupplementals/ReadARScript.txt)
 
+### Psuedocode 
+Pseudocode is VERY useful for laying out the logic of a large project. 
+
+
 ### Write your "first" bioinformatics program
 Okay. Maybe it isn't your first program, but it's the first assignment for the lab. 
