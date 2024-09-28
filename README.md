@@ -38,7 +38,7 @@ Welcome! This repository is designed to help onboard new students in the lab or 
 
 ## R 
 1. Basic tutorials. There are a TON of "learn R" courses/websites online. If you are entirely new to programming/coding, we recommend this course by [Codeacademy](https://www.codecademy.com/learn/learn-r). If you have prior experience, you can use the tutorial by [w3schools](https://www.w3schools.com/R/) which will allow you to skip topics you are familiar with. If you prefer textbook style rather than a course, you can start with [this](https://bookdown.org/yih_huynh/Guide-to-R-Book/intro.html), Chapters 2 & 3. 
-2. Tidyverse/tidyr is the equivalent to pandas in Python. A tutorial for tidyverse can be found [here](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html), Chapters 4-7.
+2. Tidyverse/tidyr/dplyr are the equivalent to pandas in Python. A tutorial for them can be found [here](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html), Chapters 4-7.
 3. ggplot2 is the equivalent to matplotlib + seaborn in Python. A tutorial for plotting in R can be found [here](https://bookdown.org/yih_huynh/Guide-to-R-Book/introduction-to-graphing.html), Chapters 8-12.
 #### Practice 
 4. Seurat is the equivalent of scanpy in Python. It is time to practice your skills with a bioinformatics question. At this point, you can attempt the [Seurat tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) with real biological data! 
